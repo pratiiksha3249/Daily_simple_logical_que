@@ -33,8 +33,8 @@ printf("enter n array element...");
 for(i=0;i<n;i++){
 scanf("%d",&a[i]);
 }
-for(int p=0;p<n/2;p++)
-printf("%d\t %d\t",a[p],a[n/2 + p]);
+//for(int p=0;p<n/2;p++)
+//printf("%d\t %d\t",a[p],a[n/2 + p]);
 // for(int p=0;p<n;p++)
 // printf("%d\t %d\t",a[p],a[n/2]);
    return 0;
