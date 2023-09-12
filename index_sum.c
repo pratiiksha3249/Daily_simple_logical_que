@@ -12,6 +12,16 @@ scanf("%d",&a[i]);
 
 printf("\n enter sum to serach......");
 scanf("%d",&sum);
+
+printf("\n after put 0 value....\n ");
+for(int u=0;u<n;u++){
+    printf("%d\t",a[u]);
+}
+for(int y=0;y<n;y++){
+if(sum==a[i]){
+    a[i]=0;
+}
+}
 for(j=0;j<n;j++){
 for(k=0;k<n;k++){
     if(a[j]+a[k]==sum){
@@ -29,7 +39,7 @@ for(k=0;k<n;k++){
 }
 
 
-printf("sum of index==%d",jj+kk);
+printf("\n sum of index==%d",jj+kk);
 
 
 return 0;
