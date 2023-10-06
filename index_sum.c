@@ -18,8 +18,8 @@ for(int u=0;u<n;u++){
     printf("%d\t",a[u]);
 }
 for(int y=0;y<n;y++){
-if(sum==a[i]){
-    a[i]=0;
+if(sum==a[y]){
+    a[y]=0;
 }
 }
 for(j=0;j<n;j++){
